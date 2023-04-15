@@ -16,7 +16,7 @@ class App extends Component {
     this.openInfoWindow = this.openInfoWindow.bind(this);
     this.closeInfoWindow = this.closeInfoWindow.bind(this);
   }
-
+// hello
   componentDidMount() {
     window.initMap = this.initMap;
     // used to load the google map script asynchronously, passing in the callback reference
